@@ -22,16 +22,14 @@ Concurrency & Isolation: Designing a system that can handle multiple users tryin
 Performance & Optimization: Using EXPLAIN ANALYZE to identify performance bottlenecks (like Seq Scan) and resolving them with proper INDEXing.
 
 
-
-/
-├── sql/
-│   ├── 1_schema/       # Database structure (Tables, Constraints)
-│   ├── 2_functions/    # Business logic (Stored Procedures)
-│   ├── 3_triggers/     # Automated actions & validation (Triggers)
-│   └── _data/          # Sample data for testing
-│
-└── README.md           # This file
-
+├── sql\
+│   ├── 1_schema       # Database structure (Tables, Constraints)\
+│   ├── 2_functions    # Business logic (Stored Procedures)\
+│   ├── 3_triggers     # Automated actions & validation (Triggers)\
+│   └── _data          # Sample data for testing\
+├──api\
+|
+└── README.md           # This file\
 
 How to Set Up and Run
 Create a Database: Create a new, empty PostgreSQL database (e.g., ticket_system_db).
